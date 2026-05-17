@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.db
+
+# ML artifacts (large files - regenerate with training scripts)
+ml-service/snapshot_dataset.csv
+ml-service/trend_dataset.csv
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
